@@ -86,7 +86,14 @@ All logic and algorithms were implemented manually for learning purposes.
 
 
 
+
+
+
+
+
 Project NO;02
+
+
 Battleship Game in C++
 
 This project is a complete console-based implementation of the classic Battleship game written in C++. It allows players to compete in both Player vs Player and Player vs Computer modes while managing ship placement, turn-based attacks, scoring, and win conditions. The program emphasizes clear game logic, structured design, and an engaging text-based user experience.
