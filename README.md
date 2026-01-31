@@ -84,3 +84,75 @@ All logic and algorithms were implemented manually for learning purposes.
 - Console-based UI works best on Windows systems.
 
 
+
+
+Project NO;02
+Battleship Game in C++
+
+This project is a complete console-based implementation of the classic Battleship game written in C++. It allows players to compete in both Player vs Player and Player vs Computer modes while managing ship placement, turn-based attacks, scoring, and win conditions. The program emphasizes clear game logic, structured design, and an engaging text-based user experience.
+
+The game was developed entirely from scratch without the use of external game engines or graphical libraries. All gameplay mechanics, board rendering, and state management were implemented manually, focusing on fundamental programming concepts and correctness.
+
+Key Features
+
+Player vs Player and Player vs Computer game modes
+
+Manual and random ship placement options
+
+Dynamic board updates showing hits, misses, and sunk ships
+
+Turn-based gameplay with score tracking
+
+Multiple shots per turn based on remaining ships
+
+Persistent leaderboard system using file handling
+
+Color-coded console output for improved readability
+
+Technologies Used
+
+C++
+
+Standard C++ libraries for input/output, file handling, and randomization
+
+Windows Console API for color control and screen formatting
+
+Program Structure
+
+The system follows a modular, function-driven design and includes:
+
+Board initialization and display logic
+
+Ship placement and validation
+
+Turn-based attack handling
+
+Hit detection and ship sinking logic
+
+Score calculation system
+
+Leaderboard management using file input/output
+
+No external game engines or UI libraries were used.
+
+How to Run
+
+Compile the program using a standard C++ compiler such as MinGW or MSVC.
+
+Run the generated executable from the Windows console.
+
+Follow the on-screen prompts to select a game mode and begin playing.
+
+Educational Purpose
+
+This project was developed to strengthen understanding of core C++ concepts, including two-dimensional arrays, control flow, functions, file handling, and program state management. It demonstrates how a complete game can be implemented using only standard programming tools and console output.
+
+Notes
+
+This program is intended for academic and learning purposes.
+
+The project is designed for Windows systems due to the use of the Windows Console API.
+
+The computer opponent uses a randomized attack strategy.
+
+
